@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+button,
+input,
+textarea {
+    outline: none;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}

@@ -1,0 +1,60 @@
+.navbar-brand {
+    padding: 6px 6px;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.row {
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+.col-xs-6 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+p.image_description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+/* 以下为pj搬运 */
+
+.float_button {
+    z-index: 99;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+}
+
+.float_button #back_to_top {
+    margin-top: 20px;
+}
+
+.float_button img {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.float_button img:hover {
+    background: gray;
+}

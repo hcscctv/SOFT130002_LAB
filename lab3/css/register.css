@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+form {
+    background-color: silver;
+    margin: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    border: 1px snow solid;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    width: 30%;
+    text-align: center;
+    background-image: linear-gradient(#6CC967, #5BA14E);
+    border: 1px #4B8F4B solid;
+    border-radius: 3px;
+    height: 25px;
+    color: white;
+}
+
+header a {
+    float: right;
+    background-color: skyblue;
+    font-size: 40px;
+    margin-right: 10%;
+}
+
+header a:hover {
+    background-color: slateblue;
+    float: right;
+    font-size: 40px;
+    margin-right: 10%;
+}
